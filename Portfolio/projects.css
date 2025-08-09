@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #2d2d2d;
+  line-height: 1.6;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #bca9e0;
+  color: #fff;
+}
+
+.main-header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.main-header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.main-header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.projects-preview {
+  padding: 2rem;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.projects-preview h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 1rem;
+  border-left: 5px solid #bca9e0;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.feedback {
+  padding: 2rem;
+  background-color: #fdf9ff;
+  text-align: center;
+}
+
+.feedback h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feedback-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.feedback-box {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  border-left: 4px solid #bca9e0;
+  max-width: 250px;
+}
+
+.main-footer {
+  background-color: #bca9e0;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-page {
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.project-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.project-filters button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #bca9e0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+}
